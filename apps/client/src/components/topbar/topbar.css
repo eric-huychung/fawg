@@ -1,0 +1,26 @@
+.topbar {
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: #111111;
+    top: 0;
+}
+
+/* navbar.css */
+.topbar-link {
+    color: #F6F6F6; 
+}
+
+div a {
+    text-decoration: none;
+}
+
+.barHeight {
+    height: 45px;
+}
+
+span {
+    height: 22px;
+}
+  
+
