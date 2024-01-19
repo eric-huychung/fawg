@@ -1,4 +1,5 @@
 import express, { Express, Request, Response , Application } from 'express';
+import cors from "cors";
 // import dotenv from 'dotenv';
 
 //For env File 
@@ -6,6 +7,9 @@ import express, { Express, Request, Response , Application } from 'express';
 
 const app: Application = express();
 const port = process.env.PORT || 8000;
+
+// middleware
+app.use(cors());
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Welcome to Express & TypeScript Server');
