@@ -1,0 +1,19 @@
+.textarea {
+    position: sticky;
+    bottom: 0;
+    height: 63px;
+    background-color: #2F2F2F;
+    width: 100%;
+}
+
+.user-input {
+    border-radius: 10px;
+    height: 35px;
+    background-color: transparent;
+    border-color: #F6F6F6;
+    color: #F6F6F6;
+}
+
+.textAreaBox {
+    width: 100%; /* Add space between the row and other elements */
+}

@@ -1,12 +1,11 @@
-.topbar {
+.chatbar {
     position: fixed;
     width: 100%;
     height: 60px;
-    background-color: #111111;
+    background-color: #2F2F2F;
     top: 0;
 }
 
-/* navbar.css */
 .topbar-link {
     color: #F6F6F6; 
 }
@@ -15,7 +14,6 @@ div a {
     text-decoration: none;
 }
 
-.barHeight {
+.chatBarHeight {
     height: 45px;
 }
-

@@ -1,0 +1,18 @@
+.message {
+    margin-top: 75px;
+    color: black;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #FFCB74;
+}
+
+.message-container {
+    flex-grow: 1; /* Allow the container to take up remaining vertical space */
+    overflow-y: auto; /* Enable vertical scrolling if messages overflow */
+    padding: 10px; /* Optional: Add padding to the messages container */
+}
+
+/* Optional: Style for TextArea */
+textarea {
+  width: 100%;
+}
